@@ -17,8 +17,8 @@ public class NewTest {
   driver.manage().window().maximize();
   WebElement ele = driver.findElement(By.xpath(".//*[@id='icon']/li[1]/a"));
   ele.click();
-  
-  driver.close();
-  
+ // driver.quit();
   }
+
+
 }

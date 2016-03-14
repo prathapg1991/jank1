@@ -15,7 +15,7 @@ public void test(){
 	  driver.findElement(By.id("loanamount")).sendKeys("1000");
 	  
 	  
-	  driver.close(); 
+	 // driver.close(); 
 	  
 	  
 	  
