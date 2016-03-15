@@ -7,11 +7,12 @@ import org.testng.annotations.Test;
 
 public class Test1 {
 @Test
-public void test(){
+public void test() throws InterruptedException{
 	
 	WebDriver driver=new FirefoxDriver();
 	 driver.get("http://www.unionbankofindia.co.in/EMICal.aspx");
-	  driver.manage().window().maximize();
+	 Thread.sleep(3000);; 
+	 driver.manage().window().maximize();
 	  driver.findElement(By.id("loanamount")).sendKeys("1000");
 	  
 	  
