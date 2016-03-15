@@ -14,7 +14,7 @@ public class NewTest {
 	 // System.setProperty("webdriver.chrome.driver", "")
  WebDriver driver=new FirefoxDriver();
  driver.get("https://www.manipalhospitals.com/");
-  driver.manage().window().maximize();
+  //driver.manage().window().maximize();
   WebElement ele = driver.findElement(By.xpath(".//*[@id='icon']/li[1]/a"));
   ele.click();
  // driver.quit();

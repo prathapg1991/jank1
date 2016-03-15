@@ -10,9 +10,9 @@ public class Test1 {
 public void test() throws InterruptedException{
 	
 	WebDriver driver=new FirefoxDriver();
-	 driver.get("http://www.unionbankofindia.co.in/EMICal.aspx");
+	 driver.get("https://www.unionbankofindia.co.in/EMICal.aspx");
 	 Thread.sleep(3000);; 
-	 driver.manage().window().maximize();
+	// driver.manage().window().maximize();
 	  driver.findElement(By.id("loanamount")).sendKeys("1000");
 	  
 	  
